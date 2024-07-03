@@ -5,3 +5,12 @@ h3{
     text-align: center;
     border-radius: 50px;
 }
+.center{
+    width: 400px;
+    background-color: burlywood;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    border-radius: 15px;
+}
