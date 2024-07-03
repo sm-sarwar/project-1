@@ -36,10 +36,34 @@ p{
     /* text-align: center; */
     font-size: 22px;
     display: none;
-    margin-bottom: 30px;
+    
 }
 .psedo:hover p{
     display: block;
     width: 200px;
 
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(61, 60, 60);
+}
+li{
+    float: right;
+}
+li a{
+    text-decoration: none;
+    padding: 16px 20px;
+    text-align: center;
+    color: rgb(252, 251, 251);
+    display: block;
+    font-size: 20px;
+}
+li a:hover:not(.active){
+    background-color: black;
+}
+.active{
+    background-color: rgb(11, 119, 69);
 }
