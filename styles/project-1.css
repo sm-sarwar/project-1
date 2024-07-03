@@ -67,3 +67,35 @@ li a:hover:not(.active){
 .active{
     background-color: rgb(11, 119, 69);
 }
+.dropbtn{
+    padding: 15px;
+    background-color: rgb(14, 167, 108);
+    border: none;
+    font-size: 20px;
+    color: aliceblue;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    position: absolute;
+    display: none;
+    min-width: 200px;
+    background-color: rgb(224, 220, 220);
+    box-shadow: 5px 5px 8px gray;
+}
+.dropdown-content a{
+    display: block;
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+    padding: 10px;
+    font-size: 18px;
+}
+.dropdown-content a:hover{
+    background-color: rgb(58, 57, 57);
+    color: aliceblue;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
