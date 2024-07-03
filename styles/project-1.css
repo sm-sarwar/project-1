@@ -13,4 +13,33 @@ h3{
     text-align: center;
     margin: auto;
     border-radius: 15px;
+    margin-bottom: 50px;
+}
+img{
+    width: 400px;
+    display: block;
+    margin: auto;
+    border: 3px solid goldenrod;
+    opacity: .6;
+
+}
+h4{
+    text-align: center;
+}
+img:hover{
+    opacity: 1;
+}
+p{
+    background-color: rgb(16, 123, 150);
+    color: aliceblue;
+    padding: 10px;
+    /* text-align: center; */
+    font-size: 22px;
+    display: none;
+    margin-bottom: 30px;
+}
+.psedo:hover p{
+    display: block;
+    width: 200px;
+
 }
